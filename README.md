@@ -1,4 +1,4 @@
-# Aplicaci-n-Web
+# Aplicacion-Web
 Actividad Práctica: Desarrollo de Aplicación Web con ASP .NET Core
 
 Instrucciones Simplificadas para Ejecutar y Probar la Aplicación:
