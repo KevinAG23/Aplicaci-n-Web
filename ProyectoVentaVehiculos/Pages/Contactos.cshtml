@@ -1,0 +1,39 @@
+﻿@page
+@model ProyectoVentaVehiculos.Pages.ContactosModel
+@{
+}
+
+<header class="bg-dark text-white text-center py-5">
+    <h1 class="display-4">Contacta con Bugatti</h1>
+    <p class="lead">Estamos aquí para ayudarte.</p>
+</header>
+
+<section class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Mapa (ejemplo con Google Maps) -->
+            <div class="col-md-6">
+                <iframe class="img-fluid rounded shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.1548049089245!2d-0.1286234842744602!3d51.507797819929024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761bfa90d0eb69%3A0x56825771f1b95c1d!2sBugatti%20London!5e0!3m2!1sen!2suk!4v1637934118437!5m2!1sen!2suk" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <!-- Formulario de contacto -->
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" class="form-control" id="email" placeholder="tucorreo@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </form>
+        </div>
+    </div>
+</section>

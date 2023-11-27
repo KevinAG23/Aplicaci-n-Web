@@ -1,0 +1,30 @@
+﻿/* wwwroot/css/styles.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background-image {
+    /* Ajusta la imagen y su posición según tus necesidades */
+    background-image: url('ruta/de/tu/imagen.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* Estilo para el texto */
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.lead {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
